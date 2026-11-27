@@ -1,0 +1,15 @@
+{"id":"q01","question":"Which Search tier is the default for a small RAG proof of concept?","expected_source":"approved-services.md","expected_terms":["Free","limits"]}
+{"id":"q02","question":"What storage redundancy should a small internal POC use by default?","expected_source":"approved-services.md","expected_terms":["LRS","Blob Storage"]}
+{"id":"q03","question":"Which hosting option is recommended for an intermittently used demo?","expected_source":"approved-services.md","expected_terms":["Container Apps","scale-to-zero"]}
+{"id":"q04","question":"What must be considered before moving a POC service to production?","expected_source":"approved-services.md","expected_terms":["availability","networking"]}
+{"id":"q05","question":"What protocol and minimum TLS version are required for endpoints?","expected_source":"landing-zone-networking.md","expected_terms":["HTTPS","TLS 1.2"]}
+{"id":"q06","question":"Can architecture source blobs be anonymously accessible?","expected_source":"landing-zone-networking.md","expected_terms":["private","anonymous"]}
+{"id":"q07","question":"What identity mechanism should services use to call each other?","expected_source":"landing-zone-networking.md","expected_terms":["Entra ID","managed identities"]}
+{"id":"q08","question":"When are public endpoints acceptable in this standard?","expected_source":"landing-zone-networking.md","expected_terms":["learning POC","sensitive"]}
+{"id":"q09","question":"Does the resource group's location force every child resource into the same region?","expected_source":"landing-zone-networking.md","expected_terms":["does not force","region"]}
+{"id":"q10","question":"What credential should local developers use?","expected_source":"identity-and-secrets.md","expected_terms":["Azure CLI","DefaultAzureCredential"]}
+{"id":"q11","question":"Which role should a query-only Search runtime receive?","expected_source":"identity-and-secrets.md","expected_terms":["Search Index Data Reader"]}
+{"id":"q12","question":"Should account keys or credential-bearing connection strings be committed?","expected_source":"identity-and-secrets.md","expected_terms":["Do not put","Git"]}
+{"id":"q13","question":"What type of documents can be uploaded to this POC?","expected_source":"data-and-retention.md","expected_terms":["synthetic","approved public"]}
+{"id":"q14","question":"What should application telemetry record instead of full prompts?","expected_source":"data-and-retention.md","expected_terms":["latency","token counts","document IDs"]}
+{"id":"q15","question":"How should the project control temporary cloud spend?","expected_source":"tagging-and-cost-policy.md","expected_terms":["consumption-based","token limits","weekly"]}
